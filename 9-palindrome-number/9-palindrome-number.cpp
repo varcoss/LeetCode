@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isPalindrome(int x) 
     {
-        int digit[1000] = {};
+        int digit[100] = {};
         int i = 0;
         bool palindrone = false;
         int tempNum = x;
